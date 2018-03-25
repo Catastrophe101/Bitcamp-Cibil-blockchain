@@ -1,0 +1,39 @@
+{
+  "default": {
+    "versions": {
+      "web3.js": "1.0.0-beta",
+      "solc": "0.4.17"
+    },
+	
+	"development": {
+    "contracts": {
+      "UserStorage": {
+        "address": "0x06f8dbf2fe6f8f844d4bf8ae44097313d0874ac2"
+      },
+      "UserManagement": {
+        "args": [
+          "$UserStorage"
+        ]
+      }
+    }
+  },
+	
+    "deployment": {
+      "host": "localhost",
+      "port": 8545,
+      "type": "rpc"
+    },
+    "dappConnection": [
+      "$WEB3",
+      "http://localhost:8545"
+    ],
+    "gas": "auto",
+    "contracts": {
+      "SimpleStorage": {
+        "args": [
+          100
+        ]
+      }
+    }
+  }
+}

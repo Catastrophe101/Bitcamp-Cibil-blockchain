@@ -1,0 +1,107 @@
+{
+  "contract_name": "SimpleStorage",
+  "address": "0x06f8dbf2fe6f8f844d4bf8ae44097313d0874ac2",
+  "code": "6060604052341561000f57600080fd5b60405160208061015483398101604052808051600055505061011e806100366000396000f300606060405263ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663540a5e4e8114606357806360fe47b11460855780636d4ce63c14609a578063d285b7b41460aa578063f10684541460ba57600080fd5b3415606d57600080fd5b607360ca565b60405190815260200160405180910390f35b3415608f57600080fd5b609860043560d0565b005b341560a457600080fd5b607360da565b341560b457600080fd5b609860e0565b341560c457600080fd5b607360ec565b60015481565b6000819055600155565b60015490565b60018054600019019055565b600054815600a165627a7a72305820443111e74944497c0d0de78cc9822a92a5e1bf4d2ff4c6c57d09cae9c10ae2e00029",
+  "runtime_bytecode": "606060405263ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663540a5e4e8114606357806360fe47b11460855780636d4ce63c14609a578063d285b7b41460aa578063f10684541460ba57600080fd5b3415606d57600080fd5b607360ca565b60405190815260200160405180910390f35b3415608f57600080fd5b609860043560d0565b005b341560a457600080fd5b607360da565b341560b457600080fd5b609860e0565b341560c457600080fd5b607360ec565b60015481565b6000819055600155565b60015490565b60018054600019019055565b600054815600a165627a7a72305820443111e74944497c0d0de78cc9822a92a5e1bf4d2ff4c6c57d09cae9c10ae2e00029",
+  "real_runtime_bytecode": "606060405263ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663540a5e4e8114606357806360fe47b11460855780636d4ce63c14609a578063d285b7b41460aa578063f10684541460ba57600080fd5b3415606d57600080fd5b607360ca565b60405190815260200160405180910390f35b3415608f57600080fd5b609860043560d0565b005b341560a457600080fd5b607360da565b341560b457600080fd5b609860e0565b341560c457600080fd5b607360ec565b60015481565b6000819055600155565b60015490565b60018054600019019055565b600054815600a165627a7a72305820443111e74944497c0d0de78cc9822a92a5e1bf4d2ff4c6c57d09cae9c10ae2e00029",
+  "swarm_hash": "443111e74944497c0d0de78cc9822a92a5e1bf4d2ff4c6c57d09cae9c10ae2e0",
+  "gas_estimates": {
+    "creation": [
+      20152,
+      57200
+    ],
+    "external": {
+      "cs()": 352,
+      "get()": 396,
+      "loan()": 20388,
+      "pid()": 440,
+      "set(uint256)": 40144
+    },
+    "internal": {}
+  },
+  "function_hashes": {
+    "cs()": "540a5e4e",
+    "get()": "6d4ce63c",
+    "loan()": "d285b7b4",
+    "pid()": "f1068454",
+    "set(uint256)": "60fe47b1"
+  },
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "cs",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "x",
+          "type": "uint256"
+        }
+      ],
+      "name": "set",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "get",
+      "outputs": [
+        {
+          "name": "retVal",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "loan",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "pid",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "name": "initialValue",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ]
+}
