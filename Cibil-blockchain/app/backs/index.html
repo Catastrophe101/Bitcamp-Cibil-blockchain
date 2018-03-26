@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mortgage Blockchain Demo</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <style>
+    .margin-top-1 {
+      margin-top: 1em;
+    }
+	button{
+	margin:30px;
+	}
+  </style>
+</head>
+
+<body class="container">
+    <h2 style="text-align:center">Mortgage Blockchain Demo</h2>
+    <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#sectionA" id="home_tab"><i class="fa fa-user"></i> Home Owner</a></li>
+    </ul>
+    <div class="tab-content">
+        <div id="sectionA" class="tab-pane fade in active">
+            <div class="panel panel-primary margin-top-1">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Account Details</h3>
+					
+                </div>
+                <div class="panel-body">
+                    <table class="table table-striped">
+                        <tbody>
+                            <tr>
+                                <td>Pan ID</td>
+								
+                                <td id="ownerAccount"><input id="pid" type="text" class="text form-control"></td>
+								
+                            </tr>
+                            <tr>
+                                <td>Current Credit Score</td>
+								
+                                <td id="ownerBalance"><input type="text"  id ="cid" class="text form-control">
+                                </td>
+                            </tr>
+							<span style="text-align:center"><td><button id="Deploy" class="btn btn-primary">Initiate Account Details</button><button id="payback" class="btn btn-primary">Initiate payback</button><button id="loan" class="btn btn-primary">Initiate Loan </button><span>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+                  
+            </div>
+            </hr>
+            
+            <!-- -->
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="app.js"></script>
+
+</html>

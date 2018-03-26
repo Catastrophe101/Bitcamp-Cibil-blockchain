@@ -1,0 +1,132 @@
+{
+  "contract_name": "SimpleStorage",
+  "address": "0x06f8dbf2fe6f8f844d4bf8ae44097313d0874ac2",
+  "code": "6060604052341561000f57600080fd5b6040516020806101a183398101604052808051600055505061016b806100366000396000f300606060405236156100755763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416631ab06ee5811461007a578063540a5e4e146100955780636d4ce63c146100ba578063854bec87146100cd578063d285b7b4146100e0578063f1068454146100f3575b600080fd5b341561008557600080fd5b610093600435602435610106565b005b34156100a057600080fd5b6100a8610111565b60405190815260200160405180910390f35b34156100c557600080fd5b6100a8610117565b34156100d857600080fd5b6100a861011d565b34156100eb57600080fd5b6100a861012a565b34156100fe57600080fd5b6100a8610139565b600091909155600155565b60015481565b60015490565b6001805481019081905590565b60018054600019019081905590565b600054815600a165627a7a723058209b107dab4cfe8daa1f09de480d91b95af4a2ceb71687ed227e4dc8ef7f33c3740029",
+  "runtime_bytecode": "606060405236156100755763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416631ab06ee5811461007a578063540a5e4e146100955780636d4ce63c146100ba578063854bec87146100cd578063d285b7b4146100e0578063f1068454146100f3575b600080fd5b341561008557600080fd5b610093600435602435610106565b005b34156100a057600080fd5b6100a8610111565b60405190815260200160405180910390f35b34156100c557600080fd5b6100a8610117565b34156100d857600080fd5b6100a861011d565b34156100eb57600080fd5b6100a861012a565b34156100fe57600080fd5b6100a8610139565b600091909155600155565b60015481565b60015490565b6001805481019081905590565b60018054600019019081905590565b600054815600a165627a7a723058209b107dab4cfe8daa1f09de480d91b95af4a2ceb71687ed227e4dc8ef7f33c3740029",
+  "real_runtime_bytecode": "606060405236156100755763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416631ab06ee5811461007a578063540a5e4e146100955780636d4ce63c146100ba578063854bec87146100cd578063d285b7b4146100e0578063f1068454146100f3575b600080fd5b341561008557600080fd5b610093600435602435610106565b005b34156100a057600080fd5b6100a8610111565b60405190815260200160405180910390f35b34156100c557600080fd5b6100a8610117565b34156100d857600080fd5b6100a861011d565b34156100eb57600080fd5b6100a861012a565b34156100fe57600080fd5b6100a8610139565b600091909155600155565b60015481565b60015490565b6001805481019081905590565b60018054600019019081905590565b600054815600a165627a7a723058209b107dab4cfe8daa1f09de480d91b95af4a2ceb71687ed227e4dc8ef7f33c3740029",
+  "swarm_hash": "9b107dab4cfe8daa1f09de480d91b95af4a2ceb71687ed227e4dc8ef7f33c374",
+  "gas_estimates": {
+    "creation": [
+      20170,
+      72600
+    ],
+    "external": {
+      "cs()": 392,
+      "get()": 414,
+      "loan()": 20479,
+      "payback()": 20454,
+      "pid()": 480,
+      "set(uint256,uint256)": 40149
+    },
+    "internal": {}
+  },
+  "function_hashes": {
+    "cs()": "540a5e4e",
+    "get()": "6d4ce63c",
+    "loan()": "d285b7b4",
+    "payback()": "854bec87",
+    "pid()": "f1068454",
+    "set(uint256,uint256)": "1ab06ee5"
+  },
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "x",
+          "type": "uint256"
+        },
+        {
+          "name": "y",
+          "type": "uint256"
+        }
+      ],
+      "name": "set",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "cs",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "get",
+      "outputs": [
+        {
+          "name": "retVal",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "payback",
+      "outputs": [
+        {
+          "name": "retVal",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "loan",
+      "outputs": [
+        {
+          "name": "retVal",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "pid",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "name": "initialValue",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ]
+}

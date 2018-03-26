@@ -1,0 +1,52 @@
+=============== Mar 25, 2018 (IST) ===============
+07:00:32.358264 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+07:00:32.440642 db@open opening
+07:00:32.446642 version@stat F·[] S·0B[] Sc·[]
+07:00:32.498632 db@janitor F·2 G·0
+07:00:32.498632 db@open done T·57.9899ms
+=============== Mar 25, 2018 (IST) ===============
+07:00:38.397182 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+07:00:38.399179 version@stat F·[] S·0B[] Sc·[]
+07:00:38.399179 db@open opening
+07:00:38.400180 journal@recovery F·1
+07:00:38.409199 journal@recovery recovering @1
+07:00:38.456064 memdb@flush created L0@2 N·11 S·698B "H\xb6\xcf..\xd2*\xb3,v5":"\xb7\x91v..\xb2\x19\xff,v2"
+07:00:38.472058 version@stat F·[1] S·698B[698B] Sc·[0.25]
+07:00:38.572572 db@janitor F·3 G·0
+07:00:38.572572 db@open done T·172.3919ms
+=============== Mar 25, 2018 (IST) ===============
+09:35:48.426112 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:35:48.428112 version@stat F·[1] S·698B[698B] Sc·[0.25]
+09:35:48.428112 db@open opening
+09:35:48.429112 journal@recovery F·1
+09:35:48.439112 journal@recovery recovering @3
+09:35:48.480505 memdb@flush created L0@5 N·699 S·60KiB "Blo..ion,v14":"r\x00\x00..\xff\xb4\x1a,v706"
+09:35:48.491507 version@stat F·[2] S·61KiB[61KiB] Sc·[0.50]
+09:35:48.557797 db@janitor F·4 G·0
+09:35:48.557797 db@open done T·129.6848ms
+09:35:48.571799 table@compaction L0·2 -> L1·0 S·61KiB Q·713
+09:35:48.612802 table@build created L1@8 N·506 S·54KiB "Blo..ion,v14":"\xb7\x91v..\xb2\x19\xff,v2"
+09:35:48.612802 version@stat F·[0 1] S·54KiB[0B 54KiB] Sc·[0.00 0.00]
+09:35:48.641736 table@compaction committed F-1 S-6KiB Ke·0 D·204 T·69.9371ms
+09:35:48.643737 table@remove removed @5
+09:35:48.644736 table@remove removed @2
+=============== Mar 25, 2018 (IST) ===============
+14:01:44.602984 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:01:44.656138 version@stat F·[0 1] S·54KiB[0B 54KiB] Sc·[0.00 0.00]
+14:01:44.656138 db@open opening
+14:01:44.657138 journal@recovery F·1
+14:01:44.671865 journal@recovery recovering @6
+14:01:44.790799 memdb@flush created L0@9 N·76 S·3KiB "Blo..ion,v713":"r\x00\x00..0\x89\xab,v784"
+14:01:44.804207 version@stat F·[1 1] S·58KiB[3KiB 54KiB] Sc·[0.25 0.00]
+14:01:44.937852 db@janitor F·4 G·0
+14:01:44.937852 db@open done T·281.7139ms
+=============== Mar 25, 2018 (IST) ===============
+14:38:27.332002 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:38:27.335003 version@stat F·[1 1] S·58KiB[3KiB 54KiB] Sc·[0.25 0.00]
+14:38:27.336001 db@open opening
+14:38:27.336001 journal@recovery F·1
+14:38:27.349001 journal@recovery recovering @10
+14:38:27.460618 memdb@flush created L0@12 N·49 S·2KiB "Blo..ion,v790":"r\x00\x00..\xd85\t,v834"
+14:38:27.474613 version@stat F·[2 1] S·61KiB[6KiB 54KiB] Sc·[0.50 0.00]
+14:38:27.521394 db@janitor F·5 G·0
+14:38:27.521394 db@open done T·185.3929ms
